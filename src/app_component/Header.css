@@ -1,0 +1,30 @@
+@media screen and (min-width:820px){
+.heading {
+    padding: 2.782608695652174vw;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 37.82608695652174vw;
+    color: #fff;
+}
+.light {
+    font-weight: 100;
+}
+}
+@media screen and (min-width:320px) and (max-width:819px){
+    .heading {
+        padding: 2vw;
+        text-align: center;
+        font-weight: 900;
+        font-size: 5vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+    }
+    .light {
+        font-weight: 100;
+    }
+}

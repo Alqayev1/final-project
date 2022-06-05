@@ -1,5 +1,7 @@
-.container {
-  margin-top: 1.2rem;
+@media screen and (min-width:820px){
+.Card {
+  position: relative;
+  top: 1.434782608695652vw;
 }
 
 .container input,
@@ -10,5 +12,22 @@
   background-color: transparent;
   box-shadow: none !important;
   border: none;
-  border-bottom: 2px solid tomato;
+  border-bottom: 0.17391304347826086vw solid tomato;
+}
+} 
+@media screen and (min-width:320px) and (max-width:819px){
+  .container {
+    margin-top: 50px;
+  }
+  
+  .container input,
+  .container ::-webkit-input-placeholder {
+    color: white !important;
+  }
+  .container input:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 0.4vw solid tomato;
+  }
 }

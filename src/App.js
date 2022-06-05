@@ -3,6 +3,7 @@ import "./App.css";
 import Form from "./app_component/form.component";
 import Weather from "./app_component/weather.component";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./app_component/Header";
 
 
 import "weather-icons/css/weather-icons.css";
@@ -114,6 +115,7 @@ class App extends React.Component {
           temp_min={this.state.temp_min}
           description={this.state.description}
         />
+        <Header />
       </div>
     );
   }

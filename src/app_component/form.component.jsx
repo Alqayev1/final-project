@@ -3,7 +3,7 @@ import "./form.style.css";
 
 const Form = props => {
   return (
-    <div className="container h-100">
+    <div className="container">
       <form onSubmit={props.loadweather}>
         <div>{props.error ? error() : ""}</div>
         <div className="row">
@@ -17,7 +17,7 @@ const Form = props => {
             />
           </div>
           <div className="col-md-3 mt-md-0 mt-2 text-md-left ">
-            <button className="btn btn-warning">Get Weather</button>
+            <button className="btn btn-warning">Weather</button>
           </div>
         </div>
       </form>
