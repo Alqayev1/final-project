@@ -1,40 +1,41 @@
 @media screen and (min-width:820px) {
-form {
-  margin-top: 13.043478260869565vw;
-  margin-left: 11.73913043478261vw;
-  text-align: center;
-}
-
-form input[name="city"],
-form input[name="country"] {
-  background-color: transparent;
-  color: white;
-  border: none;
-  border-bottom: 0.17391304347826086vw solid whitesmoke;
-}
-.btn-warning{
-  width: 140px;
-  height: 50px;
-}
-}
-@media screen and (min-width:320px) and (max-width:819px){
   form {
-    position: relative;
-    top: 10vw;
-    left: 16vw;
+    margin-top: 13.043478260869565vw;
+    margin-left: 11.73913043478261vw;
+    text-align: center;
   }
+  
   form input[name="city"],
   form input[name="country"] {
     background-color: transparent;
     color: white;
     border: none;
-    border-bottom: 0.625vw solid whitesmoke;
-    width: 20vw;
+    border-bottom: 0.17391304347826086vw solid whitesmoke;
   }
   .btn-warning{
-    width: 19vw;
-    height: 7vw;
-    position: relative;
-    bottom: 5vw; 
+    width: 140px;
+    height: 50px;
   }
-}
+  }
+  @media screen and (min-width:320px) and (max-width:819px){
+    form {
+      position: relative;
+      text-align: center;
+      top: 30px;
+      left: 70px;
+    }
+    form input[name="city"],
+    form input[name="country"] {
+      background-color: transparent;
+      color: white;
+      border: none;
+      border-bottom: 0.625vw solid whitesmoke;
+      width: 20vw;
+      position: relative;
+      top: 50px;
+    }
+    .btn-warning{
+      width: 19vw;
+      height: 7vw; 
+    }
+  }
