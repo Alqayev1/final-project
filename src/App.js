@@ -5,7 +5,6 @@ import Weather from "./app_component/weather.component";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./app_component/Header";
 
-
 import "weather-icons/css/weather-icons.css";
 
 
@@ -93,7 +92,7 @@ class App extends React.Component {
         error: false
       })
       if(!city){
-        alert('Please enter correct country');
+        this.state.error = alert('Please enter correct country');
       }
       // seting icons
       this.get_WeatherIcon(this.weatherIcon, response.weather[0].id);
@@ -101,7 +100,7 @@ class App extends React.Component {
       console.log(response);
     } else {
       this.setState({
-        error: true
+        error: alert('Please enter correct city')
       });
     }
   };
